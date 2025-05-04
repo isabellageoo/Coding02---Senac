@@ -4,7 +4,7 @@
     --cor1: #F1EFEC;
     --cor2: #D4C9BE;
     --cor3: #b22cbe;
-    --cor4: #030303;
+    --cor4: #03030362;
 }
 
 body {
@@ -16,33 +16,34 @@ body {
 }
 
 ul {
-    background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background-1200x800.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+                url(https://img.freepik.com/vetores-gratis/fundo-hexagonal-escuro-com-cor-gradiente_79603-1409.jpg?t=st=1746326164~exp=1746329764~hmac=a7644f52510872a492ad506a41b7f7746cdc1189df3e4f03981bef69b8010854&w=996);
+    background-size: cover;
     background-position: center;
-    color: var(--cor2);
-    list-style: url(https://img.freepik.com/vetores-gratis/carinha-sorridente-estilo-desenho-animado-estrela_78370-1112.jpg?semt=ais_hybrid&w=20);
 }
 
 table {
     border: 1px solid var(--cor3);
     border-collapse: collapse;
     padding: 10px;
+}
 
-    th {
-        background-color: var(--cor3);
-        color: var(--corBranca);
-        font-size: 1.5rem;
-        text-align: center;
-    }
+table th {
+    background-color: var(--cor3);
+    color: var(--corBranca);
+    font-size: 1.5rem;
+    text-align: center;
+}
 
-    td {
-        background-color: var(--cor1);
-        border: 1px solid var(--cor3);
-        color: var(--cor4);
-        text-align: center;
-    }
-    td.justificado{
-        text-align: justify;
-    }
+table td {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor3);
+    color: var(--cor4);
+    text-align: center;
+}
+
+td.justificado {
+    text-align: justify;
 }
 
 
@@ -73,12 +74,11 @@ div.cargo {
 }
 
 h2 {
-    color: pink;
-    font-size: 1.8rem;
+    color: #d63384; 
 }
 
 footer {
-    font-family: 'Playwrite MX Guides';
+    font-family: 'Playfair Display', serif;
 }
 
 .centralizar {
@@ -86,13 +86,13 @@ footer {
 }
 
 #foto {
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid var(--cor3);
+    width: 100%;
+    max-width: 200px;
+    height: auto;
 }
 
 a:link {
-    color: #FF0000;
+    color: #f82ac5;
 }
 
 a:visited {
