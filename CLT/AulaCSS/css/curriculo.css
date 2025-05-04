@@ -3,7 +3,7 @@
     --corPreta: #000000;
     --cor1: #F1EFEC;
     --cor2: #D4C9BE;
-    --cor3: #123458;
+    --cor3: #b22cbe;
     --cor4: #030303;
 }
 
@@ -62,12 +62,18 @@ h2.cargo {
     color: #123458;
 }
 
+div.cargo {
+    background-color: #FF0000;
+    margin-left: -5em;
+    margin-right: -5em;
+}
+
 #cargo {
     color: #4ae900;
 }
 
 h2 {
-    color: #123458;
+    color: pink;
     font-size: 1.8rem;
 }
 
@@ -86,7 +92,7 @@ footer {
 }
 
 a:link {
-    color: #391258;
+    color: #FF0000;
 }
 
 a:visited {
@@ -94,7 +100,7 @@ a:visited {
 }
 
 a:hover {
-    color: #9d00ff;
+    color: #FF00FF;
     font-size: 1.5em;
 }
 
