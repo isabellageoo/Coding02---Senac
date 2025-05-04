@@ -3,8 +3,8 @@
     --corPreta: #000000;
     --cor1: #F1EFEC;
     --cor2: #D4C9BE;
-    --cor3: #123458;
-    --cor4: #030303;
+    --cor3: #9415a5;
+    --cor4: #03030362;
 }
 
 body {
@@ -26,7 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 
 img.foto {
     width: 90%;
-    opacity: 80%;
+    opacity: 1;
+    margin-top: 70px;
 }
 
 p.justificado {
@@ -69,6 +70,11 @@ p.justificado {
 .subTopBcgCont {
     background-color: var(--cor3);
     width: 7em;
+}
+
+.subTopBcgSoftSkills {
+    background-color: var(--cor3);
+    width: 10em;
 }
 
 .subTopBcgEnd {
@@ -129,9 +135,14 @@ th.largo10{
     width: 10%;
 }
 
+input:focus, textarea:focus {
+    outline: 2px solid var(--cor3);
+    box-shadow: 0 0 5px var(--cor3);
+}
+
 #menuIsabella {
     background-color: var(--cor3);
-    padding: 1em;
+    padding:  0.3em 1em;
     text-align: center;
 }
 
