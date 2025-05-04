@@ -74,16 +74,10 @@ div.cargo {
 }
 
 h2 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     color: #d63384; 
-=======
     color: pink;
     font-size: 1.8rem;
->>>>>>> 4ba57b3 (Adicionar imagem e atualizar currículos HTML e CSS)
-=======
     color: #d63384; 
->>>>>>> 04dbbb8 (Minhas alterações locais)
 }
 
 footer {
@@ -101,15 +95,9 @@ footer {
 }
 
 a:link {
-<<<<<<< HEAD
-<<<<<<< HEAD
     color: #f82ac5;
-=======
     color: #FF0000;
->>>>>>> 4ba57b3 (Adicionar imagem e atualizar currículos HTML e CSS)
-=======
     color: #f82ac5;
->>>>>>> 04dbbb8 (Minhas alterações locais)
 }
 
 a:visited {

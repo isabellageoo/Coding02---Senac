@@ -156,17 +156,83 @@
                             <input type="tel" class="form-control" id="telefone"
                                 placeholder="Digite seu telefone | (99)99999-9999" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" required>
                         </div>
-                        <div class="row my-3">
-                            <div class="col-6">
-                                <label for="dataHora" class="form-label"><strong>Data/Hora</strong></label>
-                                <input type="datetime-local" class="form-control" id="dataHora" required min="2025-04-23" max="2025-12-31">
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-6">
+                            <label for="dataHora" class="form-label"><strong>Data/Hora</strong></label>
+                            <input type="datetime-local" class="form-control" id="dataHora" required min="2025-04-23" max="2025-12-31">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label for="mensagem" class="form-label"><strong>Mensagem</strong></label>
+                            <textarea class="form-control" id="mensagem" rows="3" placeholder="Conte sua história..." required></textarea>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label for="idioma" class="form-label"><strong>Língua Aplicada</strong></label>
+                            <select class="form-select" id="idioma" required>
+                                <option value="ingles">Inglês</option>
+                                <option value="espanhol">Espanhol</option>
+                                <option value="frances">Francês</option>
+                                <option value="portugues">Português (pt-br)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label for="arquivo" class="form-label"><strong>Protótipo (PDF, DOC, DOCX, JPEG, PNG)</strong></label>
+                            <input type="file" class="form-control" id="arquivo" accept=".pdf, .doc, .docx, .jpeg, .jpg, .png" required>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label for="linguagens" class="form-label"><strong>Linguagens Preferidas</strong></label>
+                            <select class="form-select" id="linguagens" multiple required>
+                                <option value="java">Java</option>
+                                <option value="javascript">JavaScript</option>
+                                <option value="python">Python</option>
+                                <option value="csharp">GoLang</option>
+                                <option value="csharp">PHP</option>
+                                <option value="csharp">C++</option>
+                                <option value="csharp">C#</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label><strong>Tipo de Banco de Dados</strong></label>
+                            <div>
+                                <input type="radio" id="relacional" name="banco" value="relacional" required>
+                                <label for="relacional">Relacional</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="noSQL" name="banco" value="noSQL" required>
+                                <label for="noSQL">NoSQL</label>
                             </div>
                         </div>
-                        <div class="row my-3">
-                            <div class="col-12">
-                                <label for="mensagem" class="form-label"><strong>Mensagem</strong></label>
-                                <textarea class="form-control" id="mensagem" rows="3" placeholder="Conte sua história..."
-                                    required></textarea>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label for="turno" class="form-label"><strong>Turno Preferido para Reuniões</strong></label>
+                            <select class="form-select" id="turno" required>
+                                <option value="manha">Manhã</option>
+                                <option value="tarde">Tarde</option>
+                                <option value="noite">Noite</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label for="horarioReuniao" class="form-label"><strong>Melhor Horário para Reuniões</strong></label>
+                            <input type="time" class="form-control" id="horarioReuniao" required>
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-12">
+                            <label for="previsaoEntrega" class="form-label"><strong>Previsão de Entrega</strong></label>
+                            <input type="date" class="form-control" id="previsaoEntrega" required>
                         </div>
                     </div>
                     <div class="row my-3">
@@ -179,17 +245,17 @@
             </div>
             <div class="card hrBcg my-2"></div>
         </div>
-        <div id="softskills" class="container"></div>
-        <h2>Soft Skills</h2>
-        <div class="card subTopBcgSoftSkills my-2"></div>
-        <div class="container">
-            <ol>
-                <li>Empatia</li>
-                <li>Flexibilidade</li>
-                <li>Gestão de Tempo</li>
-                <li>Trabalho em Equipe</li>
-                <li>Comunicação Eficiente</li>
-            </ol>
+        <div id="softskills" class="container">
+            <h2>Soft Skills</h2>
+            <div class="card subTopBcgSoftSkills my-2"></div>
+            <div class="container">
+                <ol>
+                    <li>Empatia</li>
+                    <li>Flexibilidade</li>
+                    <li>Gestão de Tempo</li>
+                    <li>Trabalho em Equipe</li>
+                    <li>Comunicação Eficiente</li>
+                </ol>
         </div>
         <div class="card hrBcg my-2"></div>
     </div>
